@@ -1,6 +1,6 @@
 class Application
    def call(env)
-     if Time.now.hour.between?(0, 11)
+     if Time.now.hour < 12
       Rack::Response.new.write "Good Morning!"
     elsif Time.now.hour.between?(12, 17)
       Rack::Response.new.write "Good Afternoon."

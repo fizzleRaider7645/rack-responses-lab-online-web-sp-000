@@ -1,3 +1,3 @@
 class Application
- p time = Time.new
+ p hour = Time.new.hour
 end

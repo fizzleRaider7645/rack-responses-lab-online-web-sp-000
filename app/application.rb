@@ -4,5 +4,6 @@ class Application
       Rack::Response.new.write "Good Morning!"
     else
       Rack::Response.new.write "Good Afternoon!"
+    end
   end
 end

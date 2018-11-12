@@ -1,5 +1,5 @@
 class Application
-  def call(hour = Time.new.hour)
+  def call(env)
     if hour < 12
       Rack::Response.new.write "Good Morning!"
     else

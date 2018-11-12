@@ -5,6 +5,6 @@ class Application
     else
       Rack::Response.new.write "Good Afternoon."
     end
-     resp.finish
+     Rack::Response.finish
   end
 end

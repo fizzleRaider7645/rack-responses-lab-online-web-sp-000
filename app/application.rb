@@ -4,8 +4,6 @@ class Application
       Rack::Response.new.write "Good Morning!"
     else Time.now.hour.between?(12, 17)
       Rack::Response.new.write "Good Afternoon."
-    else
-      Rack::Response.new.write "Good Evening!"
     end
      resp.finish
   end

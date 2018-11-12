@@ -1,4 +1,4 @@
 class Application
-  def call(time)
+  def call(time = )
   end
 end

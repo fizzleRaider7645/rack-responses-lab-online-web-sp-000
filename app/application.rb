@@ -3,5 +3,6 @@ class Application
     if hour < 12
       Rack::Response.new.write "Good Morning!"
     else
+      Rack::Response.new.write "Good Morning!"
   end
 end

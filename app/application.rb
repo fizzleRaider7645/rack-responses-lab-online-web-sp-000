@@ -1,4 +1,5 @@
 class Application
+  def call
  p hour = Time.new.hour
  resp = Rack::Response.new
  if hour < 12
